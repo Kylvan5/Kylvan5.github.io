@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motivation</title>
+    <style>
+        body {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            font-family: sans-serif; 
+            font-size: 2.5rem; 
+            text-align: center; 
+            padding: 40px; 
+            background: #121212; 
+            color: #fff;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const q = [
+            "Believe you can and you are halfway there.",
+            "Act as if what you do makes a difference. It does.",
+            "Success is not final, failure is not fatal.",
+            "Effort is the path to mastery.",
+            "The reward is the effort.",
+            "Be water, my friend.",
+            "Study hard you little shit.",
+            "Remember you may die tomorrow, so don't waste your life.",
+            "It's incredible to be alive now, so make the best use of this unique chance.",
+            "Be someone that likes doing hard things.",
+            "Never ever give up on your dreams.",
+            "Stop talking, just act.",
+            "Greatness comes out of self-discipline.",
+            "It does not matter how slowly you go as long as you do not stop.",
+            "Don't watch the clock; do what it does. Keep going.",
+            "Never bend your head. Always hold it high.",
+            "What you get by achieving your goals is not as important as what you become.",
+            "The only way to do great work is to love what you do.",
+            "You miss 100% of the shots you don't take."
+        ];
+        document.body.innerHTML = q[Math.floor(Math.random() * q.length)];
+    </script>
+</body>
+</html>
